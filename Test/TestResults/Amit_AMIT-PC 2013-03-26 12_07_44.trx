@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9405e4e3-3668-4d73-be27-b882956ec1b8" name="Amit@AMIT-PC 2013-03-26 12:07:44" runUser="Amit-PC\Amit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5e58d72d-6299-4343-89b6-48b4a2e77302">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Amit_AMIT-PC 2013-03-26 12_07_44">
+      <DeploymentItem filename="C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\ClassLibrary6\bin\Debug\ClassLibrary6.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-26T12:07:44.8202293+05:30" queuing="2013-03-26T12:07:48.9344646+05:30" start="2013-03-26T12:07:49.0864733+05:30" finish="2013-03-26T12:07:49.8645178+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateObject" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="3f504c94-deb5-72ed-1cb7-bf517a4658c0">
+      <Execution id="96223c37-4e84-4df6-b154-ebd961cdecd1" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateObject" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3f504c94-deb5-72ed-1cb7-bf517a4658c0" executionId="96223c37-4e84-4df6-b154-ebd961cdecd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="96223c37-4e84-4df6-b154-ebd961cdecd1" testId="3f504c94-deb5-72ed-1cb7-bf517a4658c0" testName="CreateObject" computerName="AMIT-PC" duration="00:00:00.1296248" startTime="2013-03-26T12:07:49.2244812+05:30" endTime="2013-03-26T12:07:49.7555116+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96223c37-4e84-4df6-b154-ebd961cdecd1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.CreateObject threw exception: 
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'K:\TestFolder\childObject.txt'.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ObjectStoreSDK.Handler.createObject(String containerName, String objectName, String filePath) in C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\ClassLibrary6\Handler.cs:line 119
+   at TestProject1.UnitTest1.CreateObject() in C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

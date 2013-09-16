@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4f135096-42ac-4aa1-a86a-847bb4564993" name="sony@SONY-VAIO 2013-04-04 20:58:14" runUser="sony-VAIO\sony" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5e58d72d-6299-4343-89b6-48b4a2e77302">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sony_SONY-VAIO 2013-04-04 20_58_14">
+      <DeploymentItem filename="F:\ClassLibrary6\ClassLibrary6\ClassLibrary6\bin\Debug\ClassLibrary6.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-04T20:58:14.4938603+05:30" queuing="2013-04-04T20:58:21.5542641+05:30" start="2013-04-04T20:58:22.0632932+05:30" finish="2013-04-04T20:59:57.3187415+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="6" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeleteObject" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="ec6a6693-53ba-e659-a644-f790fa096177">
+      <Execution id="10e36e97-78c3-4e0f-a0f1-307be25a46a1" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteObject" />
+    </UnitTest>
+    <UnitTest name="GetContainer" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="f0a75e08-f6c5-262b-87f0-6c12c9c252a9">
+      <Execution id="8f88e439-30c5-4ec3-a0ce-c9817e8054c9" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetContainer" />
+    </UnitTest>
+    <UnitTest name="CreateContainer" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="6badfa2b-0656-5edf-eda2-6f36d30b3abc">
+      <Execution id="a9f498cf-f969-4c74-a34d-bc2456b924b9" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateContainer" />
+    </UnitTest>
+    <UnitTest name="CreateChildObject" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="b2ad89b2-942f-2774-14b7-0bbc196218eb">
+      <Execution id="e60687ca-6351-46ea-bf25-99581fe0a360" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateChildObject" />
+    </UnitTest>
+    <UnitTest name="SuccessfulAuthorization" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="f608752f-ca6c-2946-26fc-01471610082d">
+      <Execution id="80449c83-c16a-4648-8556-ed930aec8222" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuccessfulAuthorization" />
+    </UnitTest>
+    <UnitTest name="CreateObject" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="3f504c94-deb5-72ed-1cb7-bf517a4658c0">
+      <Execution id="63697a06-a6ea-4431-8760-3beb357d129c" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateObject" />
+    </UnitTest>
+    <UnitTest name="CreateChildContainer" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="ad7b8dfd-287f-6d4f-b6a2-18d1a7cb32b6">
+      <Execution id="ba01d51b-3c7f-4419-8cba-2e79c10d5273" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateChildContainer" />
+    </UnitTest>
+    <UnitTest name="DeleteChildObject" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="df459c9f-cb9e-d761-5103-6768ff9e5ec8">
+      <Execution id="381514db-9ef5-4b18-9645-d1936237652c" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteChildObject" />
+    </UnitTest>
+    <UnitTest name="DeleteContainer" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="1470b5ab-dcd9-55ba-0276-09be12380f9d">
+      <Execution id="97f7725a-125c-4b88-9ac8-a5b3202d5513" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteContainer" />
+    </UnitTest>
+    <UnitTest name="UnSuccessfulAuthorization" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="392e54a7-5c97-a08c-36ba-7ce92c0fa88b">
+      <Execution id="72d8a356-2fc4-48da-9c5f-7468715829e3" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UnSuccessfulAuthorization" />
+    </UnitTest>
+    <UnitTest name="DeleteChildContainer" storage="f:\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="ba737bd2-3dee-f35f-c871-ac7e0224ab67">
+      <Execution id="c27151da-a228-4189-8831-e0d5bc086068" />
+      <TestMethod codeBase="F:/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteChildContainer" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1470b5ab-dcd9-55ba-0276-09be12380f9d" executionId="97f7725a-125c-4b88-9ac8-a5b3202d5513" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="392e54a7-5c97-a08c-36ba-7ce92c0fa88b" executionId="72d8a356-2fc4-48da-9c5f-7468715829e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f504c94-deb5-72ed-1cb7-bf517a4658c0" executionId="63697a06-a6ea-4431-8760-3beb357d129c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6badfa2b-0656-5edf-eda2-6f36d30b3abc" executionId="a9f498cf-f969-4c74-a34d-bc2456b924b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad7b8dfd-287f-6d4f-b6a2-18d1a7cb32b6" executionId="ba01d51b-3c7f-4419-8cba-2e79c10d5273" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2ad89b2-942f-2774-14b7-0bbc196218eb" executionId="e60687ca-6351-46ea-bf25-99581fe0a360" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba737bd2-3dee-f35f-c871-ac7e0224ab67" executionId="c27151da-a228-4189-8831-e0d5bc086068" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df459c9f-cb9e-d761-5103-6768ff9e5ec8" executionId="381514db-9ef5-4b18-9645-d1936237652c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec6a6693-53ba-e659-a644-f790fa096177" executionId="10e36e97-78c3-4e0f-a0f1-307be25a46a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0a75e08-f6c5-262b-87f0-6c12c9c252a9" executionId="8f88e439-30c5-4ec3-a0ce-c9817e8054c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f608752f-ca6c-2946-26fc-01471610082d" executionId="80449c83-c16a-4648-8556-ed930aec8222" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="97f7725a-125c-4b88-9ac8-a5b3202d5513" testId="1470b5ab-dcd9-55ba-0276-09be12380f9d" testName="DeleteContainer" computerName="SONY-VAIO" duration="00:00:11.0311755" startTime="2013-04-04T20:58:22.2433035+05:30" endTime="2013-04-04T20:58:34.0189771+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97f7725a-125c-4b88-9ac8-a5b3202d5513">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.DeleteContainer threw exception: 
+System.IO.IOException: The device is not ready.
+</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ObjectStoreSDK.Handler.createObject(String containerName, String objectName, String filePath) in F:\ClassLibrary6\ClassLibrary6\ClassLibrary6\Handler.cs:line 160
+   at TestProject1.UnitTest1.DeleteContainer() in F:\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="72d8a356-2fc4-48da-9c5f-7468715829e3" testId="392e54a7-5c97-a08c-36ba-7ce92c0fa88b" testName="UnSuccessfulAuthorization" computerName="SONY-VAIO" duration="00:00:32.3787168" startTime="2013-04-04T20:58:34.0239774+05:30" endTime="2013-04-04T20:59:06.4118298+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72d8a356-2fc4-48da-9c5f-7468715829e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="63697a06-a6ea-4431-8760-3beb357d129c" testId="3f504c94-deb5-72ed-1cb7-bf517a4658c0" testName="CreateObject" computerName="SONY-VAIO" duration="00:00:00.0005899" startTime="2013-04-04T20:59:06.4138300+05:30" endTime="2013-04-04T20:59:06.4198303+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63697a06-a6ea-4431-8760-3beb357d129c">
+    </UnitTestResult>
+    <UnitTestResult executionId="a9f498cf-f969-4c74-a34d-bc2456b924b9" testId="6badfa2b-0656-5edf-eda2-6f36d30b3abc" testName="CreateContainer" computerName="SONY-VAIO" duration="00:00:09.7268401" startTime="2013-04-04T20:59:06.4228305+05:30" endTime="2013-04-04T20:59:16.1593874+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9f498cf-f969-4c74-a34d-bc2456b924b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="ba01d51b-3c7f-4419-8cba-2e79c10d5273" testId="ad7b8dfd-287f-6d4f-b6a2-18d1a7cb32b6" testName="CreateChildContainer" computerName="SONY-VAIO" duration="00:00:34.9409367" startTime="2013-04-04T20:59:16.1673878+05:30" endTime="2013-04-04T20:59:51.1183869+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba01d51b-3c7f-4419-8cba-2e79c10d5273">
+    </UnitTestResult>
+    <UnitTestResult executionId="e60687ca-6351-46ea-bf25-99581fe0a360" testId="b2ad89b2-942f-2774-14b7-0bbc196218eb" testName="CreateChildObject" computerName="SONY-VAIO" duration="00:00:01.2276370" startTime="2013-04-04T20:59:51.1193870+05:30" endTime="2013-04-04T20:59:52.3544576+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e60687ca-6351-46ea-bf25-99581fe0a360">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.CreateChildObject threw exception: 
+System.IO.IOException: The device is not ready.
+</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ObjectStoreSDK.Container.createChildObject(String childName, String filePath) in F:\ClassLibrary6\ClassLibrary6\ClassLibrary6\Container.cs:line 168
+   at TestProject1.UnitTest1.CreateChildObject() in F:\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c27151da-a228-4189-8831-e0d5bc086068" testId="ba737bd2-3dee-f35f-c871-ac7e0224ab67" testName="DeleteChildContainer" computerName="SONY-VAIO" duration="00:00:01.5048606" startTime="2013-04-04T20:59:52.3574578+05:30" endTime="2013-04-04T20:59:53.8705443+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c27151da-a228-4189-8831-e0d5bc086068">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.DeleteChildContainer threw exception: 
+System.IO.IOException: The device is not ready.
+</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ObjectStoreSDK.Container.createChildObject(String childName, String filePath) in F:\ClassLibrary6\ClassLibrary6\ClassLibrary6\Container.cs:line 168
+   at TestProject1.UnitTest1.DeleteChildContainer() in F:\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="381514db-9ef5-4b18-9645-d1936237652c" testId="df459c9f-cb9e-d761-5103-6768ff9e5ec8" testName="DeleteChildObject" computerName="SONY-VAIO" duration="00:00:00.7050320" startTime="2013-04-04T20:59:53.8755446+05:30" endTime="2013-04-04T20:59:54.5985860+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="381514db-9ef5-4b18-9645-d1936237652c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.DeleteChildObject threw exception: 
+System.IO.IOException: The device is not ready.
+</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ObjectStoreSDK.Container.createChildObject(String childName, String filePath) in F:\ClassLibrary6\ClassLibrary6\ClassLibrary6\Container.cs:line 168
+   at TestProject1.UnitTest1.DeleteChildObject() in F:\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 137
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="10e36e97-78c3-4e0f-a0f1-307be25a46a1" testId="ec6a6693-53ba-e659-a644-f790fa096177" testName="DeleteObject" computerName="SONY-VAIO" duration="00:00:00.3938771" startTime="2013-04-04T20:59:54.6015861+05:30" endTime="2013-04-04T20:59:55.0056092+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10e36e97-78c3-4e0f-a0f1-307be25a46a1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.DeleteObject threw exception: 
+System.IO.IOException: The device is not ready.
+</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ObjectStoreSDK.Handler.createObject(String containerName, String objectName, String filePath) in F:\ClassLibrary6\ClassLibrary6\ClassLibrary6\Handler.cs:line 160
+   at TestProject1.UnitTest1.DeleteObject() in F:\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f88e439-30c5-4ec3-a0ce-c9817e8054c9" testId="f0a75e08-f6c5-262b-87f0-6c12c9c252a9" testName="GetContainer" computerName="SONY-VAIO" duration="00:00:01.9716829" startTime="2013-04-04T20:59:55.0086094+05:30" endTime="2013-04-04T20:59:56.9887227+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f88e439-30c5-4ec3-a0ce-c9817e8054c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="80449c83-c16a-4648-8556-ed930aec8222" testId="f608752f-ca6c-2946-26fc-01471610082d" testName="SuccessfulAuthorization" computerName="SONY-VAIO" duration="00:00:00.0387884" startTime="2013-04-04T20:59:56.9937230+05:30" endTime="2013-04-04T20:59:57.0457259+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80449c83-c16a-4648-8556-ed930aec8222">
+    </UnitTestResult>
+  </Results>
+</TestRun>

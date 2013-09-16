@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="44be5792-ce3f-45d2-b508-514830547610" name="Amit@AMIT-PC 2013-03-26 01:05:24" runUser="Amit-PC\Amit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5e58d72d-6299-4343-89b6-48b4a2e77302">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Amit_AMIT-PC 2013-03-26 01_05_24">
+      <DeploymentItem filename="C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\ClassLibrary6\bin\Debug\ClassLibrary6.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-26T01:05:24.8772067+05:30" queuing="2013-03-26T01:05:26.2602859+05:30" start="2013-03-26T01:05:26.5473023+05:30" finish="2013-03-26T01:05:34.8407766+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeleteContainer" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="1470b5ab-dcd9-55ba-0276-09be12380f9d">
+      <Execution id="1f1098f1-fea9-4c24-b2d4-cf2eb8e11b33" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteContainer" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1470b5ab-dcd9-55ba-0276-09be12380f9d" executionId="1f1098f1-fea9-4c24-b2d4-cf2eb8e11b33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1f1098f1-fea9-4c24-b2d4-cf2eb8e11b33" testId="1470b5ab-dcd9-55ba-0276-09be12380f9d" testName="DeleteContainer" computerName="AMIT-PC" duration="00:00:07.3008681" startTime="2013-03-26T01:05:26.6863102+05:30" endTime="2013-03-26T01:05:34.7957741+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f1098f1-fea9-4c24-b2d4-cf2eb8e11b33">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+          <StackTrace>   at TestProject1.UnitTest1.DeleteContainer() in C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

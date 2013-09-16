@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a2f9241f-cc04-48da-81ff-f256ad6eaab2" name="Amit@AMIT-PC 2013-03-25 23:23:27" runUser="Amit-PC\Amit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5e58d72d-6299-4343-89b6-48b4a2e77302">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Amit_AMIT-PC 2013-03-25 23_23_27">
+      <DeploymentItem filename="C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\ClassLibrary6\bin\Debug\ClassLibrary6.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-25T23:23:27.4543102+05:30" queuing="2013-03-25T23:23:28.6103763+05:30" start="2013-03-25T23:23:28.6313775+05:30" finish="2013-03-25T23:23:34.9487388+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetContainer" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="f0a75e08-f6c5-262b-87f0-6c12c9c252a9">
+      <Execution id="ae20c88b-7c1a-4e09-8a46-455649fc92dd" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetContainer" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f0a75e08-f6c5-262b-87f0-6c12c9c252a9" executionId="ae20c88b-7c1a-4e09-8a46-455649fc92dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ae20c88b-7c1a-4e09-8a46-455649fc92dd" testId="f0a75e08-f6c5-262b-87f0-6c12c9c252a9" testName="GetContainer" computerName="AMIT-PC" duration="00:00:05.9883861" startTime="2013-03-25T23:23:28.6483785+05:30" endTime="2013-03-25T23:23:34.9157369+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae20c88b-7c1a-4e09-8a46-455649fc92dd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at TestProject1.UnitTest1.GetContainer() in C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

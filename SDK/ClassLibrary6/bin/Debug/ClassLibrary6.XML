@@ -1,0 +1,699 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary6</name>
+    </assembly>
+    <members>
+        <member name="T:ObjectStoreSDK.JSONParser">
+            <summary>
+            Utility class containing function related to JSON parsing
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.JSONParser.parseJSONString(System.String)">
+            <summary>
+            Parses JSON response.
+            </summary>
+            <param name="JSONString">String in which JSON reponse is stored</param>
+            <returns>Dictionary containing key:value pair of JSONString</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.JSONParser.getFieldValue(System.String,System.String)">
+            <summary>
+            Gives specific field value from JSON String.
+            </summary>
+            <param name="fieldName">Field name to be searched within JSONString</param>
+            <param name="JSONString">String in which JSON reponse is stored</param>
+            <returns>value of fieldname requested</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.JSONParser.getChildren(System.String)">
+            <summary>
+            Get all the children
+            </summary>
+            <param name="allChildren">String containing all children of container</param>
+            <returns>Children in a list of String</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.JSONParser.getDateTime(System.String)">
+            <summary>
+            Get DateTime from string
+            </summary>
+            <param name="dateTimeString">String containing DateTime</param>
+            <returns>Object of DateTime</returns>
+        </member>
+        <member name="T:ObjectStoreSDK.PutHTTPRequest">
+            <summary>
+            Defines a PUT HTTP Request
+            </summary>
+        </member>
+        <member name="T:ObjectStoreSDK.HTTPRequest">
+            <summary>
+            Defines an HTTP request
+            <member>Stores type of webrequest</member>
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.HTTPRequest.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.HTTPRequest.#ctor(ObjectStoreSDK.Client)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="client">Instance of client</param>
+        </member>
+        <member name="M:ObjectStoreSDK.HTTPRequest.addHeader(System.String,System.String)">
+            <summary>
+            Add specific header to HTTP Request
+            </summary>
+            <param name="headerName">Name of header</param>
+            <param name="headerValue">Value of header</param>
+        </member>
+        <member name="M:ObjectStoreSDK.HTTPRequest.createHTTPRequest(System.String)">
+            <summary>
+            Creates HTTP Request
+            </summary>
+            <param name="RequestType">Type of HTTP Request to be created
+            Authentication or Account</param>
+        </member>
+        <member name="M:ObjectStoreSDK.HTTPRequest.createHTTPRequest(System.String,System.String)">
+            <summary>
+            Creates HTTP Request
+            </summary>
+            <param name="path">Path to container or object</param>
+            <param name="RequestType">Type of HTTP Request
+            Container or Object</param>
+        </member>
+        <member name="M:ObjectStoreSDK.HTTPRequest.executeRequest">
+            <summary>
+            Executes HTTP Request
+            </summary>
+            <returns>ExecutionResult</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.HTTPRequest.GetResponse">
+            <summary>
+            Get Response to HTTP Request
+            </summary>
+            <returns>Response of type System.Net.WebResponse</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.PutHTTPRequest.#ctor(ObjectStoreSDK.Client)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="client">Instance of client</param>
+        </member>
+        <member name="M:ObjectStoreSDK.PutHTTPRequest.addBody(System.Byte[])">
+            <summary>
+            Add body to current HTTP Request
+            </summary>
+            <param name="buf">Body to be added as byte array</param>
+        </member>
+        <member name="T:ObjectStoreSDK.Handler">
+            <summary>
+            Handles basic CRUD operations
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.#ctor(ObjectStoreSDK.Client)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="client">Instance of Client</param>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.createContainer(System.String)">
+            <summary>
+            Creates a new container in account
+            </summary>
+            <param name="containerName">Name of Container to be created</param>
+            <returns>True if created successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.createContainer(System.String,System.String)">
+            <summary>
+            Creates a new container in account
+            </summary>
+            <param name="containerName">Name of Container to be created</param>
+            <param name="metadataFilePath">Path of metadata file</param>
+            <returns>True if created successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.createContainer(System.String,System.String,System.String)">
+            <summary>
+            Creates a new container according to user metadata
+            </summary>
+            <param name="containerName">Name of container</param>
+            <param name="metadataKey">key of metadata</param>
+            <param name="metadataValue">value of metadata</param>
+            <returns>True if created successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.displayAccountContents">
+            <summary>
+            Display contents of the account
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.createObject(System.String,System.String,System.String)">
+            <summary>
+            Creates a new object in specified container
+            </summary>
+            <param name="containerName">Name of container in which to create object</param>
+            <param name="objectName">Name of object to be created</param>
+            <param name="filePath">Path of file to be uplaoded</param>
+            <returns>True if created successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.createObject(System.String,System.String,System.String,System.String)">
+            <summary>
+            Create a new object with user defined metadata attached
+            </summary>
+            <param name="containerName">Name of container in which to create object</param>
+            <param name="objectName">Name of object to be created</param>
+            <param name="filePath">Path of file to be uploaded</param>
+            <param name="metadataFilePath">Path of file containing user defined metadata</param>
+            <returns>True if created successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.createObject(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Create a new object according to user metadata
+            </summary>
+            <param name="containerName">Name of container in which to create object</param>
+            <param name="objectName">Name of object to be created</param>
+            <param name="filePath">Path of file to be uploaded</param>
+            <param name="metadataKey">Metadata Key</param>
+            <param name="metadataValue">Metadata Value</param>
+            <returns>True if created successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.deleteContainer(System.String)">
+            <summary>
+            Delete an existing container
+            </summary>
+            <param name="containerName">Name of container to be deleted</param>
+            <returns>True if deleted successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.deleteObject(System.String,System.String)">
+            <summary>
+            Delete an existing object from specified container
+            </summary>
+            <param name="containerName">Name of Container from which to delete an object</param>
+            <param name="objectName">Name of object to be deleted</param>
+            <returns>True if deleted successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.getContainer(System.String)">
+            <summary>
+            Gets the specified container
+            </summary>
+            <param name="containerName">Name of container</param>
+            <returns>Container</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Handler.getObject(System.String,System.String)">
+            <summary>
+            Get any object of specified container
+            </summary>
+            <param name="containerName">Name of container</param>
+            <param name="objectName">Name of child object</param>
+            <returns>Child Object</returns>
+        </member>
+        <member name="T:ObjectStoreSDK.Resource1">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.AccountRequest">
+            <summary>
+              Looks up a localized string similar to CreateAccountHTTPRequest.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.AuthRequest">
+            <summary>
+              Looks up a localized string similar to CreateAuthHTTPRequest.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.CantDeleteContainer">
+            <summary>
+              Looks up a localized string similar to Container does not exist therefore cannot be deleted.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.CantDeleteObject">
+            <summary>
+              Looks up a localized string similar to Object does not exist therefore cannot be deleted.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.ContainerExists">
+            <summary>
+              Looks up a localized string similar to Container already exists.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.ContainerRequest">
+            <summary>
+              Looks up a localized string similar to CreateContainerHTTPRequest.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.NoChild">
+            <summary>
+              Looks up a localized string similar to Child container does not exist.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.NoContainer">
+            <summary>
+              Looks up a localized string similar to Container does not exist.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.NoObject">
+            <summary>
+              Looks up a localized string similar to Object does not exist.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.ObjectRequest">
+            <summary>
+              Looks up a localized string similar to CreateObjectHTTPRequest.
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.OverwriteContainer">
+            <summary>
+              Looks up a localized string similar to Do you want to overwrite existing child container? (y/n).
+            </summary>
+        </member>
+        <member name="P:ObjectStoreSDK.Resource1.OverwriteObject">
+            <summary>
+              Looks up a localized string similar to Do you want to overwrite existing object: y/n.
+            </summary>
+        </member>
+        <member name="T:ObjectStoreSDK.Client">
+            <summary>
+            This class is used as wrapper for underlying structure 
+            and does basic authentication, handler functions
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Client.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="serverIP">IP address of Server</param>
+            <param name="username">Username</param>
+            <param name="groupname">Group Name</param>
+            <param name="password">Password</param>
+        </member>
+        <member name="M:ObjectStoreSDK.Client.getAuthorizationToken">
+            <summary>
+            get the Auth Token from Server which can be used for any operation later.
+            </summary>
+            <returns>True if token generated
+            False otherwise
+            </returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Client.getHandler">
+            <summary>
+            Used to obtain the Handler
+            </summary>
+            <returns>Returns object of Handler class</returns>
+        </member>
+        <member name="T:ObjectStoreSDK.CommonConstants">
+            <summary>
+            This class defines the constants used in SDK.
+            </summary>
+        </member>
+        <member name="T:ObjectStoreSDK.ExceptionHandler">
+            <summary>
+            Handles all HTTP exceptions. 
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.ExceptionHandler.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.ExceptionHandler.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="message">Error Message</param>
+        </member>
+        <member name="T:ObjectStoreSDK.GetHTTPRequest">
+            <summary>
+            Creates GET HTTP Request
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.GetHTTPRequest.#ctor(ObjectStoreSDK.Client)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="client">Instance of client</param>
+        </member>
+        <member name="T:ObjectStoreSDK.RequestExecutor">
+            <summary>
+            Executes HTTP Request
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.RequestExecutor.executeRequest(ObjectStoreSDK.HTTPRequest)">
+            <summary>
+            Executes HTTP Request
+            </summary>
+            <param name="request">HTTP Request</param>
+            <returns>Exceution Result</returns>
+        </member>
+        <member name="T:ObjectStoreSDK.DelHTTPRequest">
+            <summary>
+            Create HTTP Delete Request
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.DelHTTPRequest.#ctor(ObjectStoreSDK.Client)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="client">Instance of client</param>
+        </member>
+        <member name="T:ObjectStoreSDK.ExecutionResult">
+            <summary>
+            Stores the response obtained from HTTP Requests
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.ExecutionResult.#ctor(System.Net.WebResponse)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="response">Response of type System.Net.WebResponse</param>
+        </member>
+        <member name="T:ObjectStoreSDK.Container">
+            <summary>
+            This class is used to perform CRUD operations 
+            on container and it's children
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.#ctor(ObjectStoreSDK.Client,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="client">current instance of Client</param>
+            <param name="path">Path to container</param>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.isGetSuccessful">
+            <summary>
+            Check if the GetContainer operation is successful or not
+            </summary>
+            <returns>
+            True if successful
+            False otherwise
+            </returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.createChildContainer(System.String)">
+            <summary>
+            Creates child container under given parent container.
+            </summary>
+            <param name="childName">Name of Child container</param>
+             <return>True if created successfully
+            False otherwise</return>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.createChildContainer(System.String,System.String)">
+            <summary>
+            Creates child container under given parent container.
+            </summary>
+            <param name="childName">Name of Child container</param>
+            <param name="metadataFilePath">Path of metadata file</param>
+             <return>True if created successfully
+            False otherwise</return>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.createChildContainer(System.String,System.String,System.String)">
+            <summary>
+            Creates child container under given parent container according to user metadata
+            </summary>
+            <param name="childName">Name of Child container</param>
+            <param name="metadataKey">Key of metadata</param>
+            <param name="metadataValue">Value of metadata</param>
+            <returns>True if created successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.createChildObject(System.String,System.String)">
+            <summary>
+            Creates child object under given parent container.
+            </summary>
+            <param name="childName">Name of Child Object</param>
+            <param name="filePath">Path of file to be uploaded</param>
+             <return>True if created successfully
+            False otherwise</return>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.createChildObject(System.String,System.String,System.String)">
+            <summary>
+            Creates child object under given parent container with medatadata file
+            </summary>
+            <param name="childName">Name of child object</param>
+            <param name="filePath">Path of file to be uploaded</param>
+            <param name="metadataFilePath">Path of metadata file</param>
+            <returns>True if created successfully 
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.createChildObject(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates child object under given parent container according to user metadata
+            </summary>
+            <param name="childName">Name of child object</param>
+            <param name="filePath">Path of file to be uploaded</param>
+            <param name="metadataKey">Key of metadata</param>
+            <param name="metadataValue">Value of metadata</param>
+            <returns>True if created successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.deleteChildContainer(System.String)">
+            <summary>
+            Deletes child container under given parent container.
+            </summary>
+            <param name="childName">Name of child container to be deleted</param>
+            <returns>True if deleted successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.deleteChildObject(System.String)">
+            <summary>
+            Deletes child object under given parent container
+            </summary>
+            <param name="childName">Name of child object to be deleted</param>
+            <returns>True if deleted successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getChildContainer(System.String)">
+            <summary>
+            Get any child container of current container
+            </summary>
+            <param name="childName">Name of child container</param>
+            <returns>Child Container</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getParentContainer">
+            <summary>
+            Get parent container of current container
+            </summary>
+            <returns>Parent Container</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.toString">
+            <summary>
+            Retrieve the details of container from JSON repsonse
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getChildObject(System.String)">
+            <summary>
+            Get any child object of current container
+            </summary>
+            <param name="objectName">Name of child object</param>
+            <returns>Child Object</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.updateMetadata(System.String,System.String)">
+            <summary>
+            Update metadata
+            </summary>
+            <param name="metadataKey">Key of metadata</param>
+            <param name="metadataValue">Value of metadata</param>
+            <returns>True if metadata updated
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.emptyContainer">
+            <summary>
+            delete all the contents of the container
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getContainerName">
+            <summary>
+            Returns Container name
+            </summary>
+            <returns>Container name as string</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getChildrenRange">
+            <summary>
+            Return children range
+            </summary>
+            <returns>String containing children range</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getChildren">
+            <summary>
+            Returns children
+            </summary>
+            <returns>ist of type string containing all children</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getParentURI">
+            <summary>
+            Return parent URI
+            </summary>
+            <returns>String containing parent URI</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getContainerPath">
+            <summary>
+            Returns container path
+            </summary>
+            <returns>String containing path of container</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Container.getMetadata">
+            <summary>
+            Return Metadata of current container
+            </summary>
+            <returns>Object of Metadata</returns>
+        </member>
+        <member name="T:ObjectStoreSDK.Object">
+            <summary>
+            Defines data object
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.#ctor(ObjectStoreSDK.Client,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="client">Instance of Client</param>
+            <param name="path">Path to object</param>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.isGetSuccessful">
+            <summary>
+            Check if the Get Child Object has been successful or not
+            </summary>
+            <returns>
+            True if successful
+            False otherwise
+            </returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.getParentContainer">
+            <summary>
+            Get parent container of object
+            </summary>
+            <returns>Parent Container</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.writeObjectToFile(System.String)">
+            <summary>
+            Write object to local file
+            </summary>
+            <param name="filePath">Path to local file</param>
+            <returns>True if object is written in a file successfully
+            False otherwise</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.toString">
+            <summary>
+            Get detais of object from JSON Parser
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.getObjectName">
+            <summary>
+            Returns Object Name
+            </summary>
+            <returns>String containing Object Name</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.getValueRange">
+            <summary>
+            Returns Value Range
+            </summary>
+            <returns>String containing Value Range</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.getParentURI">
+            <summary>
+            Returns parentURI  
+            </summary>
+            <returns>String containing parentURI</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.getValue">
+            <summary>
+            Returns Value of the Object
+            </summary>
+            <returns>String containing Value of the Object</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Object.getMetadata">
+            <summary>
+            Return Metadata of current object
+            </summary>
+            <returns>Object of Metadata</returns>
+        </member>
+        <member name="T:ObjectStoreSDK.Metadata">
+            <summary>
+            Defines metadata
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.Metadata.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="metadata">JSON String for metadata in response</param>
+        </member>
+        <member name="M:ObjectStoreSDK.Metadata.getCTime">
+            <summary>
+            Get Creation Time
+            </summary>
+            <returns>Creation Time</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Metadata.getUserMetadata(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Metadata.getSize">
+            <summary>
+            Get CDMI Size
+            </summary>
+            <returns>CDMI Size</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.Metadata.toString">
+            <summary>
+            displays all key:value pairs in metadata.
+            </summary>
+        </member>
+        <member name="T:ObjectStoreSDK.RequestUtil">
+            <summary>
+            Creates URL for CRUD Operations on container and data objects
+            </summary>
+        </member>
+        <member name="M:ObjectStoreSDK.RequestUtil.formAuthURL(ObjectStoreSDK.Client)">
+            <summary>
+            Forms Authentication URL
+            </summary>
+            <param name="client">Instance of client</param>
+            <returns>Authentication URL</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.RequestUtil.formAccountURL(ObjectStoreSDK.Client)">
+            <summary>
+            Forms Account URL
+            </summary>
+            <param name="client">Instance of client</param>
+            <returns>Account URL</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.RequestUtil.formContainerURL(ObjectStoreSDK.Client,System.String)">
+            <summary>
+            Forms Container URL
+            </summary>
+            <param name="client">Instance of client</param>
+            <param name="path">Path to container</param>
+            <returns>Container URL</returns>
+        </member>
+        <member name="M:ObjectStoreSDK.RequestUtil.formObjectURL(ObjectStoreSDK.Client,System.String)">
+            <summary>
+            Forms Object URL
+            </summary>
+            <param name="client">Instance of client</param>
+            <param name="path">Path to object</param>
+            <returns>Object URL</returns>
+        </member>
+    </members>
+</doc>

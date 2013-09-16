@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b747fd36-3c80-4da9-92b8-1bb9425fd397" name="Amit@AMIT-PC 2013-03-25 23:26:04" runUser="Amit-PC\Amit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5e58d72d-6299-4343-89b6-48b4a2e77302">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Amit_AMIT-PC 2013-03-25 23_26_04">
+      <DeploymentItem filename="C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\ClassLibrary6\bin\Debug\ClassLibrary6.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-25T23:26:04.8943152+05:30" queuing="2013-03-25T23:26:06.0633821+05:30" start="2013-03-25T23:26:06.1693882+05:30" finish="2013-03-25T23:26:47.9127757+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="10" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeleteObject" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="ec6a6693-53ba-e659-a644-f790fa096177">
+      <Execution id="062e7da6-b6f2-4745-860b-2ab9e83f1cc9" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteObject" />
+    </UnitTest>
+    <UnitTest name="GetContainer" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="f0a75e08-f6c5-262b-87f0-6c12c9c252a9">
+      <Execution id="85c22cba-50cd-4bc9-9bc7-cc62bc081289" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetContainer" />
+    </UnitTest>
+    <UnitTest name="CreateContainer" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="6badfa2b-0656-5edf-eda2-6f36d30b3abc">
+      <Execution id="0c53dd91-b766-40d9-a455-279ca8120774" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateContainer" />
+    </UnitTest>
+    <UnitTest name="CreateChildObject" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="b2ad89b2-942f-2774-14b7-0bbc196218eb">
+      <Execution id="c5a9d211-d0ad-4051-a7a1-bf970228400c" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateChildObject" />
+    </UnitTest>
+    <UnitTest name="SuccessfulAuthorization" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="f608752f-ca6c-2946-26fc-01471610082d">
+      <Execution id="ef8bca16-8644-4e61-b56e-2b33e607700c" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuccessfulAuthorization" />
+    </UnitTest>
+    <UnitTest name="CreateObject" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="3f504c94-deb5-72ed-1cb7-bf517a4658c0">
+      <Execution id="87b5a04f-21c6-4726-be3f-6d21723df856" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateObject" />
+    </UnitTest>
+    <UnitTest name="CreateChildContainer" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="ad7b8dfd-287f-6d4f-b6a2-18d1a7cb32b6">
+      <Execution id="b863c36a-bd0b-4fd0-ab02-16c042dd1220" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateChildContainer" />
+    </UnitTest>
+    <UnitTest name="DeleteChildObject" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="df459c9f-cb9e-d761-5103-6768ff9e5ec8">
+      <Execution id="4befca1a-26a0-47f1-ab74-78223e7f5993" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteChildObject" />
+    </UnitTest>
+    <UnitTest name="DeleteContainer" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="1470b5ab-dcd9-55ba-0276-09be12380f9d">
+      <Execution id="208c3ec0-4265-4622-84cc-53a2a84ad1ae" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteContainer" />
+    </UnitTest>
+    <UnitTest name="UnSuccessfulAuthorization" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="392e54a7-5c97-a08c-36ba-7ce92c0fa88b">
+      <Execution id="177c4058-15b8-4581-b7d4-803ae4f0e6ad" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UnSuccessfulAuthorization" />
+    </UnitTest>
+    <UnitTest name="DeleteChildContainer" storage="c:\users\amit\documents\visual studio 2010\projects\classlibrary6\classlibrary6\testproject1\bin\debug\testproject1.dll" id="ba737bd2-3dee-f35f-c871-ac7e0224ab67">
+      <Execution id="835d709d-501a-4822-919c-7ed31a3eb0c0" />
+      <TestMethod codeBase="C:/Users/Amit/Documents/Visual Studio 2010/Projects/ClassLibrary6/ClassLibrary6/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteChildContainer" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1470b5ab-dcd9-55ba-0276-09be12380f9d" executionId="208c3ec0-4265-4622-84cc-53a2a84ad1ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="392e54a7-5c97-a08c-36ba-7ce92c0fa88b" executionId="177c4058-15b8-4581-b7d4-803ae4f0e6ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f504c94-deb5-72ed-1cb7-bf517a4658c0" executionId="87b5a04f-21c6-4726-be3f-6d21723df856" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6badfa2b-0656-5edf-eda2-6f36d30b3abc" executionId="0c53dd91-b766-40d9-a455-279ca8120774" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad7b8dfd-287f-6d4f-b6a2-18d1a7cb32b6" executionId="b863c36a-bd0b-4fd0-ab02-16c042dd1220" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2ad89b2-942f-2774-14b7-0bbc196218eb" executionId="c5a9d211-d0ad-4051-a7a1-bf970228400c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba737bd2-3dee-f35f-c871-ac7e0224ab67" executionId="835d709d-501a-4822-919c-7ed31a3eb0c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df459c9f-cb9e-d761-5103-6768ff9e5ec8" executionId="4befca1a-26a0-47f1-ab74-78223e7f5993" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec6a6693-53ba-e659-a644-f790fa096177" executionId="062e7da6-b6f2-4745-860b-2ab9e83f1cc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0a75e08-f6c5-262b-87f0-6c12c9c252a9" executionId="85c22cba-50cd-4bc9-9bc7-cc62bc081289" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f608752f-ca6c-2946-26fc-01471610082d" executionId="ef8bca16-8644-4e61-b56e-2b33e607700c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="208c3ec0-4265-4622-84cc-53a2a84ad1ae" testId="1470b5ab-dcd9-55ba-0276-09be12380f9d" testName="DeleteContainer" computerName="AMIT-PC" duration="00:00:06.1528562" startTime="2013-03-25T23:26:06.2503928+05:30" endTime="2013-03-25T23:26:12.9097737+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="208c3ec0-4265-4622-84cc-53a2a84ad1ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="177c4058-15b8-4581-b7d4-803ae4f0e6ad" testId="392e54a7-5c97-a08c-36ba-7ce92c0fa88b" testName="UnSuccessfulAuthorization" computerName="AMIT-PC" duration="00:00:22.4233304" startTime="2013-03-25T23:26:12.9147740+05:30" endTime="2013-03-25T23:26:35.3520573+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="177c4058-15b8-4581-b7d4-803ae4f0e6ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="87b5a04f-21c6-4726-be3f-6d21723df856" testId="3f504c94-deb5-72ed-1cb7-bf517a4658c0" testName="CreateObject" computerName="AMIT-PC" duration="00:00:02.0905640" startTime="2013-03-25T23:26:35.3620579+05:30" endTime="2013-03-25T23:26:37.4611779+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87b5a04f-21c6-4726-be3f-6d21723df856">
+    </UnitTestResult>
+    <UnitTestResult executionId="0c53dd91-b766-40d9-a455-279ca8120774" testId="6badfa2b-0656-5edf-eda2-6f36d30b3abc" testName="CreateContainer" computerName="AMIT-PC" duration="00:00:01.2033502" startTime="2013-03-25T23:26:37.4681783+05:30" endTime="2013-03-25T23:26:38.6802477+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c53dd91-b766-40d9-a455-279ca8120774">
+    </UnitTestResult>
+    <UnitTestResult executionId="b863c36a-bd0b-4fd0-ab02-16c042dd1220" testId="ad7b8dfd-287f-6d4f-b6a2-18d1a7cb32b6" testName="CreateChildContainer" computerName="AMIT-PC" duration="00:00:01.6782203" startTime="2013-03-25T23:26:38.6852480+05:30" endTime="2013-03-25T23:26:40.3753446+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b863c36a-bd0b-4fd0-ab02-16c042dd1220">
+    </UnitTestResult>
+    <UnitTestResult executionId="c5a9d211-d0ad-4051-a7a1-bf970228400c" testId="b2ad89b2-942f-2774-14b7-0bbc196218eb" testName="CreateChildObject" computerName="AMIT-PC" duration="00:00:01.3851674" startTime="2013-03-25T23:26:40.3813450+05:30" endTime="2013-03-25T23:26:41.7754247+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5a9d211-d0ad-4051-a7a1-bf970228400c">
+    </UnitTestResult>
+    <UnitTestResult executionId="835d709d-501a-4822-919c-7ed31a3eb0c0" testId="ba737bd2-3dee-f35f-c871-ac7e0224ab67" testName="DeleteChildContainer" computerName="AMIT-PC" duration="00:00:01.6809542" startTime="2013-03-25T23:26:41.7814250+05:30" endTime="2013-03-25T23:26:43.4705217+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="835d709d-501a-4822-919c-7ed31a3eb0c0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at TestProject1.UnitTest1.DeleteChildContainer() in C:\Users\Amit\Documents\Visual Studio 2010\Projects\ClassLibrary6\ClassLibrary6\TestProject1\UnitTest1.cs:line 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4befca1a-26a0-47f1-ab74-78223e7f5993" testId="df459c9f-cb9e-d761-5103-6768ff9e5ec8" testName="DeleteChildObject" computerName="AMIT-PC" duration="00:00:01.2546281" startTime="2013-03-25T23:26:43.4835224+05:30" endTime="2013-03-25T23:26:44.7455946+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4befca1a-26a0-47f1-ab74-78223e7f5993">
+    </UnitTestResult>
+    <UnitTestResult executionId="062e7da6-b6f2-4745-860b-2ab9e83f1cc9" testId="ec6a6693-53ba-e659-a644-f790fa096177" testName="DeleteObject" computerName="AMIT-PC" duration="00:00:01.2092491" startTime="2013-03-25T23:26:44.7515949+05:30" endTime="2013-03-25T23:26:45.9696646+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="062e7da6-b6f2-4745-860b-2ab9e83f1cc9">
+    </UnitTestResult>
+    <UnitTestResult executionId="85c22cba-50cd-4bc9-9bc7-cc62bc081289" testId="f0a75e08-f6c5-262b-87f0-6c12c9c252a9" testName="GetContainer" computerName="AMIT-PC" duration="00:00:01.0197734" startTime="2013-03-25T23:26:45.9766650+05:30" endTime="2013-03-25T23:26:47.0047238+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85c22cba-50cd-4bc9-9bc7-cc62bc081289">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef8bca16-8644-4e61-b56e-2b33e607700c" testId="f608752f-ca6c-2946-26fc-01471610082d" testName="SuccessfulAuthorization" computerName="AMIT-PC" duration="00:00:00.8688863" startTime="2013-03-25T23:26:47.0087240+05:30" endTime="2013-03-25T23:26:47.8827740+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef8bca16-8644-4e61-b56e-2b33e607700c">
+    </UnitTestResult>
+  </Results>
+</TestRun>
