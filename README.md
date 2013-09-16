@@ -23,27 +23,3 @@ Code Organization
 For Client Apps
 ----------
 A demo client application built using this SDK has been included in Application/ folder in this project.
-
-
-This Code is part of a Final Year Project (Computer Engineering), University of  Pune, Maharashtra, India.
-----------------------
-
-College: Pune Vidyarthi Griha’s College of Engineering and Technology, Pune-09.
---------------------------
-
-Project members:
-
-1.	Aniruddha Atre - aniruddha9atre@gmail.com
-2.	Prasanna Lalingkar - pdlalingkar@gmail.com
-3.	Amit Rao - admyadam@gmail.com
-4.	Pushkaraj Shingre - pushkarajs10@gmail.com
-
-
-Guided by:
-
-1.	Sandeep Patil - sandeep.patil@in.ibm.com
-2.	Atul Deopujari - adeopuja@in.ibm.com
-3.	Gaurang Tapase - gaurang.tapase@in.ibm.com
-4.	Pallavi Galgali - pgalgali@in.ibm.com
-
-
