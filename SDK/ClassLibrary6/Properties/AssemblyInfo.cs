@@ -1,4 +1,6 @@
-﻿using System.Reflection;
+///Copyright 2013 IBM Corp.
+
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 

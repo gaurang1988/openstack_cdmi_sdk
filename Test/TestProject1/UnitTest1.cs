@@ -1,4 +1,6 @@
-﻿using System;
+///Copyright 2013 IBM Corp.
+
+using System;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;

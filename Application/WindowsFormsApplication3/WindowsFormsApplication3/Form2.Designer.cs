@@ -1,4 +1,6 @@
-﻿namespace WindowsFormsApplication3
+///Copyright 2013 IBM Corp.
+
+namespace WindowsFormsApplication3
 {
     partial class Form2
     {

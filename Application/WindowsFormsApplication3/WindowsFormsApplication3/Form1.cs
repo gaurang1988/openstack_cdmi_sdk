@@ -1,4 +1,6 @@
-﻿using System;
+///Copyright 2013 IBM Corp.
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
